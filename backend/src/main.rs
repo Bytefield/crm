@@ -60,7 +60,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     tracing::info!("Connected to database");
 
     // Run migrations
-    sqlx::migrate!("../../migrations")
+    sqlx::migrate!("../migrations")
         .run(&pool)
         .await?;
 

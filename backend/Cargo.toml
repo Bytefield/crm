@@ -13,6 +13,8 @@ tracing-subscriber = { workspace = true }
 backend-core = { path = "../backend-core" }
 serde = { workspace = true }
 serde_json = { workspace = true }
+sqlx = { workspace = true }
+config = { workspace = true }
 
 [dev-dependencies]
 axum-test = "18.1.0"
