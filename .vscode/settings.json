@@ -1,9 +1,13 @@
 {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "rust-analyzer.checkOnSave": true,
-    "svelte.enable-ts-plugin": true
-  }
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "rust-analyzer.checkOnSave": true,
+  "svelte.enable-ts-plugin": true,
+  "svelte.typescript.enable": true,
+  "svelte.plugin.typescript.diagnostics.enable": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
